@@ -6,8 +6,12 @@ body {
     color: aliceblue;
 }
 
-.container{
+.container {
     width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .navbar {
@@ -34,6 +38,7 @@ body {
     font-size: 26px;
     color: rgb(177, 206, 250);
 }
+
 #navItems a:hover {
     color: rgb(120, 141, 173);
 }
@@ -44,11 +49,12 @@ body {
 
 .mainContent {
     width: 800px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     color: aliceblue;
-    background: rgba(11, 12, 14, 0.842);
+    background: rgba(4, 4, 10, 0.836);
 }
 
 .contentHeader {
@@ -68,9 +74,61 @@ body {
     box-shadow: 2px 2px rgba(78, 78, 78, 0.603)
 }
 
+.portfolioItem {
+    display: inline-block;
+    margin: 13px;
+}
+
+.portfolioItem img {
+    width: 350px;
+}
+
+.portfolioItem a {
+    color: rgb(177, 206, 250);
+    font-size: 26px;
+}
+
+.overlay {
+    position: absolute;
+    height: 263px;
+    width: 350px;;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(4, 4, 10, 0.815);
+    text-align: center;
+}
+
+.overlay p {
+    margin-top: 120px;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
 .bio {
     text-align: left;
     text-shadow: 2px 2px rgb(78, 78, 78);
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    border: 2px solid #dddddd;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type=text] {
+    height: 35px;
+}
+
+textarea {
+    height: 250px;
+    max-width: 100%;
 }
 
 .spacer {
@@ -84,7 +142,7 @@ body {
     padding: 40px;
     color: white;
     font-size: 18px;
-    background: rgba(13, 13, 20, 0.836);
+    background: rgba(4, 4, 10, 0.836);
 }
 
 @font-face {
