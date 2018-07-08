@@ -145,6 +145,17 @@ textarea {
     background: rgba(4, 4, 10, 0.836);
 }
 
+.linkImgs {
+    display: inline-block;
+    margin: auto;
+}
+
+.linkImgs img {
+    width: 35px;
+    filter: invert(100%);
+    margin-left: 3px;
+    margin-right: 3px;
+}
 @font-face {
     font-family: 'hangedletters';
     src: url(fonts/hangedletters.ttf) format('truetype');
