@@ -169,7 +169,7 @@ textarea {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media (min-device-width : 320px) and (max-device-width : 480px) {
+@media (min-device-width : 300px) and (max-device-width : 480px) {
 
     body{
         font-size: 12px;
@@ -177,7 +177,7 @@ textarea {
     }
 
     .navbar {
-        width: 375px;
+        width: 100vw;
         height: 60px;
     }
 
@@ -228,7 +228,7 @@ textarea {
     }
 
     .footer {
-        width: 375px;
+        width: 100vw;
         text-align: center;
         font-size: 16px;
     }
