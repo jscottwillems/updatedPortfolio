@@ -111,7 +111,7 @@ a:hover {
     text-shadow: 2px 2px rgb(78, 78, 78);
 }
 
-input[type=text],
+input[type=text], input[type=email]
 textarea {
     width: 100%;
     border: 2px solid #dddddd;
