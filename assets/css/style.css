@@ -91,7 +91,7 @@ a:hover {
 .overlay {
     position: absolute;
     height: 263px;
-    width: 350px;;
+    width: 350px;
     opacity: 0;
     transition: .5s ease;
     background: rgba(4, 4, 10, 0.815);
@@ -216,6 +216,15 @@ textarea {
 
     .portfolioItem img {
         width: 115px;
+    }
+
+    .overlay {
+        width: 115px;
+        display: none;
+    }
+
+    .overlay:hover {
+        display: none;
     }
 
     .footer {
